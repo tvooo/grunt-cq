@@ -1,0 +1,38 @@
+{
+  "name": "grunt-cq",
+  "description": "Grunt tasks for use with Adobe CQ5, FileVault and SVN",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tim/grunt-cq",
+  "author": {
+    "name": "Tim von Oldenburg",
+    "email": "tim@voldenburg.com",
+    "url": "http://tvooo.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tim/grunt-cq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tim/grunt-cq/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tim/grunt-cq/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-cq",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
