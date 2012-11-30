@@ -32,7 +32,7 @@ module.exports = function( grunt ) {
             grunt.warn( 'SVN action "' + action + '" unknown' );
         }
 
-        svnArgs = [];
+        var svnArgs = [];
 
         if ( action === 'up' || action === 'update' ) {
             svnArgs = ['up'];
@@ -56,7 +56,6 @@ module.exports = function( grunt ) {
             done: function (err) {
                 if (!err) {
                     grunt.log.ok('Ok');
-                    deploy();
                 }
                 else {
                     grunt.fail(err);
@@ -80,7 +79,7 @@ module.exports = function( grunt ) {
             grunt.warn( 'VLT action "' + action + '" unknown' );
         }
 
-        vltArgs = [];
+        var vltArgs = [];
 
         if ( action === 'up' || action === 'update' ) {
             vltArgs = ['up'];
@@ -106,7 +105,6 @@ module.exports = function( grunt ) {
             done: function (err) {
                 if (!err) {
                     grunt.log.ok('Ok');
-                    deploy();
                 }
                 else {
                     grunt.fail(err);
